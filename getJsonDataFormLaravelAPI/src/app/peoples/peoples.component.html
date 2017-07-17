@@ -1,0 +1,5 @@
+<button class="btn btn-primary" (click)="onGetPeoples()">
+Get People
+</button>
+<hr>
+<app-people *ngFor="let people of peoples" [people]="people"></app-people>
