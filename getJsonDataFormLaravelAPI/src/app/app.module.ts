@@ -9,13 +9,15 @@ import { PeoplesComponent } from './peoples/peoples.component';
 import { NewpeopleComponent } from './newpeople/newpeople.component';
 import {routing} from "./app.routing";
 import {PeopleService} from "./people.service";
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PeopleComponent,
     PeoplesComponent,
-    NewpeopleComponent
+    NewpeopleComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
